@@ -16,7 +16,7 @@ sudo cp activa-aviso.sh /home/pi
 sudo systemctl daemon-reload
 sudo systemctl enable disp.service
 sudo systemctl enable disp-py.sevice
-udo mkdir -p /pi/.mutt/cache
+sudo mkdir -p /pi/.mutt/cache
 cd
 sudo rm -rf UV4i-master
 sudo rm master.zip
