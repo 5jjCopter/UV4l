@@ -1,26 +1,54 @@
 sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt-get install rpi-update
+
+sudo rpi-update
+
 sudo apt-get install mutt
+
 cd
+
 sudo wget https://github.com/5jjCopter/UV4l/archive/master.zip
+
 sudo unzip master.zip
+
 cd UV4l-master
+
 sudo chmod 775 disp.sh
+
 sudo chmod 775 disp.py
+
 sudo chmod 775 activa-aviso.sh
+
 sudo cp disp.sh /home/pi
+
 sudo cp disp.py /home/pi
+
 sudo cp disp.service /lib/systemd/system
+
 sudo cp disp-py.service /lib/systemd/system
+
 sudo cp .muttrc /root
+
 sudo cp activa-aviso.sh /home/pi
+
 sudo systemctl daemon-reload
+
 sudo systemctl enable disp.service
+
 sudo systemctl enable disp-py.sevice
+
 sudo mkdir -p /pi/.mutt/cache
+
 cd
+
 sudo rm -rf UV4i-master
+
 sudo rm master.zip
+
 cd
-sudo reboot
+
 do
 
