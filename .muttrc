@@ -1,7 +1,7 @@
 set from = "juanjojjjjjj@gmail.com"
-set realname = "Alarma electroensaimada"
+set realname = "Alarma juanjojjjjjj"
 set imap_user = "juanjojjjjjj@gmail.com"
-set imap_pass = "password"
+set imap_pass = "jjc200412341325sofia"
 set folder = "imaps://imap.gmail.com:993"
 set spoolfile = "+INBOX"
 set postponed ="+[Gmail]/Drafts"
@@ -9,4 +9,4 @@ set header_cache =~/.mutt/cache/headers
 set message_cachedir =~/.mutt/cache/bodies
 set certificate_file =~/.mutt/certificates
 set smtp_url = "smtp://juanjojjjjjj@smtp.gmail.com:587/"
-set smtp_pass = "password"
+set smtp_pass = "jjc200412341325sofia"
