@@ -19,6 +19,7 @@ try:
             timex = strftime("%d-%m-%Y %H:%M:%S", gmtime()) #Creamos una cadena de texto con la hora
             print timex + " MOVIMIENTO DETECTADO"  #La sacamos por pantalla
             subprocess.call(['/home/pi/disparocamara.sh'])
+            subprocess.call(['/home/pi/activa-aviso.sh'])
             time.sleep(1)  #Pausa de 1 segundo
 #           GPIO.output(17,False)  #Apagamos el led
         time.sleep(1)              #Pausa de 1 segundo y vuelta a empezar
