@@ -18,6 +18,8 @@ sudo chmod 775 disp.py
 
 sudo chmod 775 activa-aviso.sh
 
+sudo chmod 775 .mutt
+
 sudo cp disp.sh /home/pi
 
 sudo cp disp.py /home/pi
