@@ -24,7 +24,7 @@ sudo cp disp.service /lib/systemd/system
 
 sudo cp disp-py.service /lib/systemd/system
 
-sudo cp .muttrc /root
+sudo cp .muttrc /home/pi
 
 sudo cp activa-aviso.sh /home/pi
 
@@ -44,5 +44,4 @@ sudo rm master.zip
 
 cd
 
-do
 
