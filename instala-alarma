@@ -26,7 +26,7 @@ sudo cp disp.service /lib/systemd/system
 
 sudo cp disp-py.service /lib/systemd/system
 
-sudo cp .muttrc /home/pi
+sudo cp .mutt /home/pi
 
 sudo cp activa-aviso.sh /home/pi
 
@@ -40,7 +40,7 @@ sudo mkdir -p /pi/.mutt/cache
 
 cd
 
-sudo rm -rf UV4i-master
+sudo rm -rf UV4l-master
 
 sudo rm master.zip
 
