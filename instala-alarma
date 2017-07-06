@@ -28,7 +28,7 @@ sudo cp disp.service /lib/systemd/system
 
 sudo cp disp-py.service /lib/systemd/system
 
-sudo cp .mutt /home/pi
+sudo cp .mutt /root
 
 sudo cp activa-aviso.sh /home/pi
 
