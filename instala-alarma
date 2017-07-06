@@ -1,5 +1,7 @@
 sudo apt-get update && sudo apt-get upgrade -y --force-yes
 
+cd 
+
 sudo apt-get install mutt
 
 cd
